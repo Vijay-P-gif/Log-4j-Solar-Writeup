@@ -51,6 +51,39 @@ Here we are Connecting  nc -lnvp 9999  netcat to connect the  website  curl 'htt
 
 ## Task 5: Exploitation
 
+<img width="1156" height="855" alt="Screenshot 2026-03-22 235906" src="https://github.com/user-attachments/assets/6ad7c46c-46eb-4850-a73e-60ba0409f4a6" />
+sudo apt install maven
+
+mvn clean package -DskipTests
+
+Also host a local python http server by using this command
+
+python3 -m http.server
+
+<img width="865" height="721" alt="Screenshot 2026-03-22 202553" src="https://github.com/user-attachments/assets/b4cc1f87-c240-4f28-839b-ad89b68669ad" />
+<img width="1919" height="1065" alt="Screenshot 2026-03-22 184129" src="https://github.com/user-attachments/assets/de288411-858d-4c2e-bde8-5546cb9de513" />
+
+## Task 6: Persistance
+
+Check user account through whoami
+
+<img width="959" height="367" alt="image" src="https://github.com/user-attachments/assets/68062e9f-62f0-438d-826c-74fef98bc1d1" />
+
+We did not know any usernames or passwords at the point, so trying against that protocol would be useless
+
+It might be leads to changing passwords and data and informations
+
+## Task 7: Detection
+
+The detection is found by the logs checking present in there
+
+<img width="959" height="332" alt="image" src="https://github.com/user-attachments/assets/9cba4c47-8203-45f7-a070-02672dd7fc77" />
+
+## Task 8: Conclusion
+
+<img width="959" height="523" alt="image" src="https://github.com/user-attachments/assets/b228816f-56a5-41b2-884e-bd1a0abec1d1" />
+
+Overall, this vulnerability demonstrates that even small components like logging libraries can introduce massive risks if not properly secured. It reinforces the need for secure coding practices, dependency management, and proactive security testing in real-world environments.
 
 
 
